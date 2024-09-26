@@ -1,0 +1,56 @@
+/* Transmittalstyle.css */
+
+/* Style the overall modal */
+.custom-modal {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+/* Style the modal content */
+.custom-modal .modal-content {
+  background-color: #fff; /* White background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Style the modal header */
+.custom-modal .modal-header {
+  background-color: #1A0F79; /* Deep blue background */
+  color: #fff; /* White text */
+  border-bottom: none; /* No bottom border */
+  border-radius: 8px 8px 0 0; /* Rounded top corners */
+}
+
+/* Style the modal title */
+.custom-modal .modal-title {
+  font-size: 1.5rem; /* Larger title font size */
+  font-weight: bold; /* Bold title text */
+}
+
+/* Style the modal body */
+.custom-modal .modal-body {
+  padding: 20px; /* Increased padding */
+}
+
+/* Style the modal footer */
+.custom-modal .modal-footer {
+  background-color: #f0f0f0; /* Light gray background */
+  border-top: none; /* No top border */
+  border-radius: 0 0 8px 8px; /* Rounded bottom corners */
+  padding: 10px 20px; /* Padding top and bottom */
+}
+
+/* Additional styling for buttons inside the modal footer */
+.custom-modal .modal-footer button {
+  margin-right: 10px; /* Space between buttons */
+  padding: 8px 20px; /* Padding around buttons */
+  font-size: 1rem; /* Button font size */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #1A0F79; /* Deep blue background */
+  color: #fff; /* White text */
+  border: none; /* No border */
+  cursor: pointer; /* Pointer cursor */
+}
+
+.custom-modal .modal-footer button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

@@ -1,0 +1,93 @@
+
+.uploadform-table{
+  width: 100%;
+
+}
+.table-prop2 {
+    border-collapse: collapse;
+    table-layout: auto;
+    margin-top: 45px;
+  }
+  
+ .large-table-prop2 {
+    width: 20%;
+  }
+  
+.table-prop2 th,
+.table-prop2 td {
+    border: 1px solid black;
+    white-space: nowrap; 
+    padding: 10px;
+    align-items: center; 
+  }
+ .table-prop2 th {
+    color: black;
+    top: 0;
+    z-index: 1; 
+    background-color: #1A0F79;
+    color: white;
+    font-size: 14.5px; 
+    text-align: center;
+  }
+  
+ .table-prop2 .Dropdown {
+    padding: 10px; 
+    box-sizing: border-box;
+  }
+  
+.input-field {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+   
+  }
+  
+.Dropdown {
+    position: relative;
+  }
+  
+ .Dropdown select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+.AddButton,
+ .DoneButton1,
+ .ClearButton,
+ .DeleteButton {
+    margin-top: 17px;
+    padding: 6px 25px; 
+    background-color: #1A0F79; 
+    color: white; 
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Add margin between buttons */
+.DoneButton1 {
+    margin-left: 10px; /* Adjust as needed */
+  }
+  
+ .ClearButton {
+    margin-left: 10px; /* Adjust as needed */
+  }
+  
+.DeleteButton {
+    margin-left: 10px; /* Adjust as needed */
+  }
+ .AddButton:hover,
+ .DoneButton1:hover,
+ .ClearButton:hover,
+ .DeleteButton:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+  }
+.upload {
+    padding-top: 26px;
+  }
+  
+  .uploadform-input-field{
+    width: 80%;
+    border: none;
+    outline: none;
+  }
